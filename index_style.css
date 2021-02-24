@@ -1,0 +1,112 @@
+*
+{
+    font-family: "AlexBrush-Regular","Times New Roman",Arial,"Arial Black",Serif;
+ 	color : white;
+ 	text-align: justify;
+}
+
+#blockPage {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body { 
+	color: navy;
+
+	background-image: url("FondAcceuil.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+
+#Index_Corps_Page {
+
+	margin-left: 5%;
+	margin-right: 50%;
+	
+	position: center;
+}
+
+
+
+
+
+@media all and (max-width: 1000px) {
+
+	#bloc_page {
+
+	width: auto;
+	margin: auto;
+
+}
+
+	#CorpsPage {
+	 display: flex;
+	}
+  }
+
+
+nav { 
+
+top: 2%;
+left: 3%;
+margin: auto;
+ }
+
+
+nav ul {  
+list-style-type: none;
+text-decoration: none;
+display: flex;
+margin : auto; 
+}
+
+nav li {
+	
+	text-align: center;
+	padding-left: 4px;
+	padding-right: 4px; 
+	border-right: 3px white solid;
+}
+
+nav li:last-child {
+	border-right: none;
+}
+
+
+nav a {
+text-decoration: underline;
+transform: scale(1);
+transition-property: transform;
+transition-duration: 15s;
+ 
+}
+
+nav a:hover {
+
+	color: rgb(11, 25, 73);
+	background-color: rgb(230, 161, 194); 
+	transform: scale(1.5);
+}
+}
+
+
+h1 {
+
+	text-align: center;
+
+}
+
+
+p { 
+
+	font-size: 1.7em;
+	background-color: ;
+	opacity : ;
+	line-height: 1.5em;
+}
+
+
+

@@ -1,0 +1,533 @@
+
+
+/*Général*/
+
+*
+{
+    font-family: "Times New Roman",Arial,"Arial Black",Serif;
+ 	color : white;
+ 	text-align: justify;
+}
+
+
+
+body { 
+	color: navy;
+	background-image: url("FondContact.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	cursor: url('cursor.cur'), auto;
+	min-width: 70%;
+
+}
+
+h2 {
+
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 1.1em;
+	text-align: center;
+	color : rgb(12, 25, 64);
+}
+
+
+
+p { 
+
+	font-size: 1em;
+	background-color: ;
+	opacity : ;
+	margin-top: 20%;
+}
+
+
+p:hover {
+
+} 
+
+
+
+#blockPage {
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+#CorpsPage {
+	 display: flex;
+	 justify-content: center;
+	 margin-top: 10%;
+	}
+
+#CorpsPage div {
+
+	margin: 10px;
+}
+
+
+
+h1, h2, p {
+
+	text-align: center;
+}
+
+/* Menu Nav */
+
+
+
+nav { 
+
+margin: auto;
+ }
+
+
+nav ul {  
+list-style-type: none;
+text-decoration: none;
+display: flex;
+margin : auto; 
+}
+
+nav li {
+	
+	text-align: center;
+	padding-left: 4px;
+	padding-right: 4px; 
+	border-right: 3px white solid;
+	transform: scale(1);
+    transition-property: transform;
+    transition-duration: 0.4s;
+}
+
+nav li:hover {
+    	transform: scale(1.1);
+  
+    	
+    }
+
+nav li:last-child {
+	border-right: none;
+}
+
+
+nav a {
+	text-decoration: underline;
+
+
+		}
+	
+nav a:hover {
+	color: rgb(11, 25, 73);
+	background-color: rgba(230, 161, 194,1);
+	cursor: url('cursor.cur'), auto;
+
+	}
+
+
+
+
+
+/* Accueil */
+
+
+#index {
+
+
+	background-image: url("FondAcceuil.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+#index p { 
+
+	font-size: 1.7em;
+	background-color: ;
+	opacity : ;
+	line-height: 1.5em;
+	text-align: justify;
+}
+
+#Index_Corps_Page {
+
+	margin-left: 5%;
+	margin-right: 50%;
+	margin-top: 10%;
+	position: center;
+}
+
+#index nav a {
+
+	color: white;
+}
+
+
+/* Pied de Page */
+
+footer {
+
+	text-align : center;
+	
+}
+
+/* Programme*/
+
+
+#Programme {
+
+
+	background-image: url("FondProgramme.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#frise {
+
+
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: auto;
+
+}
+
+
+
+#pivotez {
+
+	display: none;
+}
+
+
+
+/* Nous répondre */
+
+#formulaire_reponse {
+
+		margin-right:25%; 
+		margin-left :25%;
+	}
+
+
+
+/* Nous Contacter */
+
+#Contact {
+	 display: flex;
+	 justify-content: center;
+	 margin-top: auto;
+	 margin-left: auto; 
+	 margin-right : auto;
+	 width: 100%
+
+	}
+
+
+#Contact div { 
+	 border: 2px white solid;
+	 padding: 10px;
+	 margin: 10px;
+	 background-color: rgba(230, 161, 194,0.8);
+	 width: 25%;
+
+ }
+
+
+ #nous_contacter { 
+
+ 	background-color: rgba(230, 161, 194,0.8);
+ 	width: 10%;
+ 	height: auto;
+ 	margin-right: auto;
+ 	margin-left: auto;
+ 	border: 2px white solid;
+	padding: 10px;
+	margin-top: 12%;
+
+  }
+
+
+/* Nous Trouver */
+
+
+#lieu {
+
+
+	justify-content: space-between;
+	display: flex;
+
+}
+
+#lieu p {
+
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+ #lieu h2 ,#lieu p {
+
+ 	background-color: rgba(230, 161, 194,0.8);
+ 	text-align: center;
+ 	border: 2px white solid;
+ 	padding: 10px;
+ }
+
+
+
+.salle p, h2{
+	
+	text-align: center;
+}
+
+
+	iframe { 
+
+	margin-left: auto;
+	margin-right: auto; 
+			}
+
+
+
+
+/* Nous rejoindre */
+
+
+#transport {
+	 display: flex;
+	 justify-content: center;
+	 flex-direction: ;
+	 margin-left: auto; 
+	 margin-right : auto;
+	}
+
+#transport div {
+	background-color: rgba(230, 161, 194,0.8);
+ 	width: 33%;
+ 	height: auto;
+
+ 	border: 2px white solid;
+ 	margin-left: 10px;
+ 	margin-right: 10px;
+ 	padding: 10px;
+
+	line-height: 1;
+
+
+	}
+
+#transport p {
+
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: left;
+	color: white;
+	margin-bottom: 15px;
+
+}
+
+#transport li {
+
+
+	color: white;
+}
+
+#transport h3 , em, a { 
+
+	
+	color : rgb(12, 25, 64);
+	font-size: 1em;
+
+ }
+
+ #covoiturage h2 + p {
+
+ 	margin-top: 12%;
+ }
+
+
+
+/* Responsive */
+
+
+@media all and (max-width: 1050px) {
+
+	body { 
+	color: navy;
+	background-image: url("FondContact_mobile.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	cursor: auto;
+
+
+		}
+
+
+	#index {
+
+
+	background-image: url("FondAcceuil_mobile.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+	#bloc_page {
+
+		width: auto;
+		margin: auto;
+		margin-top: 10%;
+
+				}
+
+	#CorpsPage {
+
+		 display: flex;
+		 flex-direction: column;
+		 margin-right: auto;
+		 margin-left: auto;
+		 align-items: center;
+				 }
+
+	* {
+
+		font-size : 25px;
+	}
+
+	 nav { 
+
+		font-size: 20px;
+		text-align: right;
+		 }
+
+
+	#Index_Corps_Page h1{
+		font-size: 45px;
+	}
+
+	#Index_Corps_Page p {
+
+		font-size: 38px;
+		}
+
+
+	 #Contact {
+		 display: flex;
+		 flex-direction: column;
+		 
+				}
+	#transport {
+
+		width: cover;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		
+	}
+
+	#transport div {
+
+		width: 80%;
+		margin-right: 10%;
+		margin-left : 10%;
+		margin-bottom: 15%
+
+
+	}
+
+
+
+	#transport p {
+
+		margin-bottom: 15px;
+	}
+
+	#covoiturage h2 + p {
+
+ 	margin-top: 7%;
+
+ 	}
+
+
+
+ 	#lieu {
+
+		width: cover;
+		display: flex;
+		flex-direction: column;
+		
+			}
+
+
+	#lieu iframe {
+
+		width: 100%;
+		height: 400px;
+		
+	}
+
+
+	#formulaire_reponse { 
+
+	height: cover;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%; 
+			}
+
+	#nous_contacter {
+
+		width: 20%;
+	}
+
+	
+
+	#Contact div {
+
+		width: 50%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10%;
+				}
+	
+	#Contact p {
+
+		vertical-align: middle;
+		margin-top: 0;
+				} 
+
+
+	
+
+
+	#pivotez {
+
+	display: block;
+			}
+
+	}
+
+
+@media all and (min-device-width: 550px) and (max-device-width: 1050px) {
+
+	#pivotez {
+
+		display: none;
+	}
+
+	#frise {
+		margin-top: 5%;
+		
+			}
+
+}
+
